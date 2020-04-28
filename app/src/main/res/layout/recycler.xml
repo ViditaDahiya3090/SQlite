@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editr"
+        android:visibility="gone"
+        android:clickable="true"
+        android:layout_marginStart="352dp"
+        android:layout_marginTop="22dp"
+        />
+    <ImageView android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/image_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/namer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="10dp"
+        android:text="name printed here"
+        android:textColor="#000"
+        android:textSize="22sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone printed here"
+            android:textSize="22sp"
+            android:layout_below="@+id/namer"
+            android:layout_marginTop="10dp"
+            android:id="@+id/phoner"
+            android:layout_marginStart="85dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/phoner"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="7dp"/>
+</RelativeLayout>
